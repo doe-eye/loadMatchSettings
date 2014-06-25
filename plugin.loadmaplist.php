@@ -4,6 +4,7 @@ Plugin loadmaplist.php v.1
 Lists the maplists in the MatchSettings folder in a manialink
 Loads the clicked maplist
 
+@author doe-eye alias any alias aca78
 some code taken and adapted from plugin.rasp_jukebox.php
 
 *********************************************************************************/
