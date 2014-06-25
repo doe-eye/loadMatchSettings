@@ -1,6 +1,6 @@
 <?php
 /*********************************************************************************
-Plugin lml.php v.3
+Plugin loadmaplist.php v.1
 Lists the maplists in the MatchSettings folder in a manialink
 Loads the clicked maplist
 
