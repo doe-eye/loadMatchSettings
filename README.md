@@ -5,15 +5,15 @@ TM2-xaseco2-plugin which allows to load different matchsettings via click (only 
 
 INSTALLATION:
 - put the .php-file in the xaseco2/plugins-folder
-- in the xaseco2/plugins.xml add the line <plugin>plugin.loadmaplist.php</plugin>
+- in the xaseco2/plugins.xml add the line <<plugin>>plugin.loadmaplist.php<</plugin>>
 - restart xaseco2
 
 
 USAGE:
 type in chat /listml
 
-you can navigate into subfolders (shown as '<subfoldername>/') and back upwards (by clicking '../')
-you can load matchsettings by clicking '<machtsettingsfilename>.txt'
+you can navigate into subfolders (shown as '<<subfoldername>>/') and back upwards (by clicking '../')
+you can load matchsettings by clicking '<<machtsettingsfilename>>.txt'
 
 
 
