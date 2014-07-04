@@ -1,10 +1,10 @@
 <?php
 /*********************************************************************************
-Plugin loadmaplist.php v.1
+Plugin loadmaplist.php v2
 Lists the maplists in the MatchSettings folder in a manialink
 Loads the clicked maplist
 
-@author doe-eye alias any alias aca78
+@author aca
 some code taken and adapted from plugin.rasp_jukebox.php
 
 *********************************************************************************/
@@ -78,12 +78,12 @@ function chat_listml($aseco, $command) {
 	if($aseco->isMasterAdmin($player) || $aseco->isAdmin($player)){
 	
 		$folder = '';
-		$arglist = explode(' ',  $command['params']);
+		$params = $command['params'];
 		
 		
 		
-		if($arglist[0]!= ''){
-			$folder = $arglist[0];
+		if($params != ''){
+			$folder = $params;
 			if(substr($folder, -3, 3) == '../'){//when directory-up
 				$pathArray = explode('/', $folder);
 				$folder = '';
